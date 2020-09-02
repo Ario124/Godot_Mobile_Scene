@@ -1,0 +1,17 @@
+[gd_scene format=2]
+
+[node name="Level" type="Node2D"]
+
+[node name="Player" type="Node2D" parent="."]
+
+[node name="Score" type="Node2D" parent="."]
+
+[node name="BG" type="Node2D" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="BG"]
+margin_right = 576.0
+margin_bottom = 1024.0
+color = Color( 0.635294, 0.635294, 0.635294, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
