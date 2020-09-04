@@ -26,6 +26,11 @@ window/size/test_width=288
 window/size/test_height=512
 window/handheld/orientation="portrait"
 
+[layer_names]
+
+2d_physics/layer_1="player"
+2d_physics/layer_2="world"
+
 [rendering]
 
 environment/default_environment="res://default_env.tres"
